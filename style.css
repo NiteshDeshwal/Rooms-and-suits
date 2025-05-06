@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 150px 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.container{
+    max-width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    border: 1px solid black;
+    
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+   
+    display: inline-block;
+}
+
+.para {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+
+
+.container img{
+    height: 150px; 
+    width: 200px;
+}
+
+.box p{
+    padding: 3px;
+}
+
+.boat{
+    /* padding: 10px; */
+    margin: 10px;
+    justify-content : space-evenly
+}
